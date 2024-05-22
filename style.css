@@ -1,0 +1,338 @@
+
+
+
+*{
+    padding:0%;
+    border:0%;
+    margin:0%;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: black;
+
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(247, 238, 246);
+}
+
+.nav nav{
+    position: relative;
+    width:100%;
+    height:50px;
+    left:0%;
+    right:0%;
+    top:0%;
+    background-color: rgba(3, 3, 3, 0.883);
+    
+}
+.logo{
+    position: relative;
+margin-top:0px;
+left:3px;
+    height:54.5px;
+}
+
+.xb2{
+    position: absolute;
+  width:100%;
+   
+}
+.button{
+    position: relative;
+    margin: auto;
+    cursor:pointer;
+    visibility:visible;
+    padding-top:10px;
+    left:35%;
+    
+    
+}
+
+.button input{
+    position: relative;
+    height:auto;
+    font-size:150%;
+    background-color: aqua;
+    font-style:bold;
+    text-align:center;
+    height:70px;
+    width:230px;
+    margin:auto;
+    border-radius:6px;
+    cursor:pointer;
+
+  
+    
+}
+
+.popup{
+         position: relative;
+         width: 40%;
+         height:400px;
+         background-color:rgb(0, 255, 195);
+         z-index:6; 
+        display:none;
+         margin:auto;
+         border:red solid 3px;
+         border-radius:10px;
+        }
+            #cancel{
+                position: relative;
+                left:95%;
+                top:2%;
+                height:20px;
+                width:20px;
+                cursor:pointer;
+              
+            }
+            .popup #label,#labelA,#labelB{
+                        position:relative;
+                        font-size:130%;
+                        font-weight:bold;
+                        
+                        
+                       
+
+                        
+            }
+                 #label p{
+                    position: relative;
+                    text-align: center;
+                    font-size:130%;
+                    font-family: "Libre Baskerville", serif;
+                    font-weight: bold;
+                    top:10px;
+
+                 }
+
+                 
+
+                #labelA{
+                  
+                    padding-left:10px;
+                    top:15%;
+                    font-size:130%;
+                       
+                    
+
+
+                }
+                        #selectA{
+                            position: relative;
+                            top:15%;
+                            width:auto;
+                            font-size:100%;
+                            font-family:800;
+                            border-radius:4px;
+                        }
+                        #selectB option{
+                               
+                            font-weight:800;
+
+                        
+
+                        }
+                #labelB{
+                    
+                    padding-left:10px;
+                    top:20%;
+                    font-size:130%;
+
+
+                }
+                        #selectB{
+                            position: relative;
+                            top:20%;
+                            width:auto;
+                            font-size:100%;
+                            font-family:800;
+                            border-radius:4px;
+                           }
+                            #selectB option{
+                               
+                                font-weight:80%;
+                            
+
+                            }
+                #search{
+                    position: relative;
+                    margin:auto;
+                    height:40px;
+                    width:20%;
+                    font-size:140%;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-weight:bold;
+                    top:30%;
+                    left:40%;
+                    right:40%;
+                    border-radius:10px;
+
+
+                }
+
+.animation{
+    position: relative;
+    top:170px;
+    width:100%;
+}
+    .animation .imgA{
+        position: relative;
+        height:200px;
+        width:200px;
+        left:20%;
+        animation:img;
+        animation-duration: 1.5s;
+    }
+    @keyframes img{
+        from{left:-10%;}
+    }
+
+    .animation .pA{
+        position: relative;
+        font-family:Noto "Serif Bengali", serif ;
+        font-weight:bold;
+        font-size:200%;
+        top:-110px;
+        left:33%;
+        
+        animation:textA;
+        animation-duration: 4s;
+        
+    }
+    @keyframes textA{
+        from{opacity:0;}
+        to:{opacity:1;}
+        
+    }
+    .animation .imgB{
+        position: relative;
+        height:250px;
+        width:250px;
+        right:-63%;
+        top:-230px;
+        animation:imgB;
+        animation-duration: 1.5s;
+        
+    }
+    @keyframes imgB{
+        from{right:-110%;}
+    }
+
+    .animation .pB{
+        position: relative;
+        font-family:Noto "Serif Bengali", serif ;
+        font-weight:bold;
+        font-size:200%;
+        top:-370px;
+        right:-50%;
+        
+        animation:textB;
+        animation-duration: 4s;
+        
+    }
+    @keyframes textB{
+        from{opacity:0;}
+        to:{opacity:1;}
+        
+    }
+    .table{
+        display: block;
+        text-align:center;
+    }
+            
+        .table label p{
+            text-align:center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight:bold;
+            font-size:140%;
+            text-decoration:underline;
+        }
+
+                    .table table{
+                        position: relative;
+                        border:2px solid red;
+                        padding:0px;
+                        vertical-align:center;
+                       
+                        width:95%;
+                        margin:2.5%;
+                        font-size:90%;
+                    }
+                    .table tr{
+                        position: relative;
+                        border:2px solid red;
+                        vertical-align:center;
+                        padding:0px;
+                    }
+                    .table td{
+                        position: relative;
+                        border:2px solid rgb(60, 0, 255);
+                        padding:5px;
+                        vertical-align:center;
+                        
+                    }
+                    .table th{
+                        position: relative;
+                        border:2px solid rgb(0, 255, 42);
+                        padding:5px;
+                        vertical-align:center;
+                    }
+
+
+
+
+.black{
+    position: relative;
+    width:100%;
+    height:400px;
+    background-color: aqua;
+}
+.black #cwd,#ats,#feed{
+  
+    text-align: center;
+    font-weight: bold;
+    font-size:130%;
+   visibility: visible;
+   
+}
+
+        #whatsapp,#facebook{
+            position: relative;
+            display:none;
+            height: 40px;
+            width: 40px;
+            left: 47%;
+            top: -139px;
+        }
+        #facebook{
+            animation:facebook;
+            animation-duration:2s;
+        }
+        @keyframes facebook{
+                        from{
+                            left:-10%;
+                        }
+        }
+        #whatsapp{
+            animation:whatsapp;
+            animation-duration:2s;
+        }
+        @keyframes whatsapp{
+            from{
+               left: 110%;
+            }
+}
+       
+#copy{
+   position: relative;
+    color: rgb(0, 0, 0);
+    font-size:80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+   top:0px;
+    opacity:.6;
+}
+
+        
+       

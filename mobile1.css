@@ -1,0 +1,667 @@
+@media screen and (min-device-width:10px) and  (max-device-width:409px)
+    
+{
+
+    .nav nav{
+        position: relative;
+        width:100%;
+        height:50px;
+        left:0%;
+        right:0%;
+        top:0%;
+        background-color:black;
+        
+    }
+    .logo{
+        position: relative;
+    margin-top:0px;
+    left:3px;
+        height:54.5px;
+    }
+    
+    .xb2{
+        position: absolute;
+      width:100%;
+       
+    }
+    .button{
+        position: relative;
+        margin: auto;
+        cursor:pointer;
+        visibility:visible;
+        padding-top:10px;
+        left:8%;
+       
+
+        
+        
+    }
+    
+    .button input{
+        position: relative;
+        height:auto;
+        font-size:100%;
+        background-color: aqua;
+        font-style:bold;
+        text-align:center;
+        height:70px;
+        width:150px;
+        margin:auto;
+        border-radius:6px;
+        cursor:pointer;
+        font-weight: bold;
+    
+      
+        
+    }
+    
+    .popup{
+             position: relative;
+             width: 90%;
+             height:400px;
+             background-color:rgb(0, 255, 195);
+             z-index:6; 
+             display:none;
+             margin:auto;
+             border:red solid 3px;
+             border-radius:10px;
+            }
+                #cancel{
+                    position: relative;
+                    left:90%;
+                    top:2%;
+                    height:25px;
+                    width:22px;
+                    cursor:pointer;
+                  
+                }
+                .popup #label,#labelA,#labelB{
+                            position:relative;
+                            font-size:110%;
+                            font-weight:bold;
+                            
+                            
+                           
+    
+                            
+                }
+                     #label p{
+                        position: relative;
+                        text-align: center;
+                        font-size:130%;
+                        font-family: "Libre Baskerville", serif;
+                        font-weight: bold;
+                        top:8px;
+    
+                     }
+    
+                     
+    
+                    #labelA{
+                      
+                        padding-left:10px;
+                        top:8%;
+                        font-size:130%;
+                           
+                        
+    
+    
+                    }
+                            #selectA{
+                                position: relative;
+                                top:10%;
+                                width:90%;
+                                font-size:110%;
+                                font-family:800;
+                                border-radius:4px;
+                                margin:1%;
+                            }
+                            #selectA option{
+                                   
+                                font-weight:800;
+    
+                            
+    
+                            }
+                    #labelB{
+                        
+                        padding-left:10px;
+                        top:13%;
+                        font-size:130%;
+    
+    
+                    }
+                            #selectB{
+                                position: relative;
+                                top:16%;
+                                width:90%;
+                                font-size:110%;
+                                font-family:800;
+                                border-radius:4px;
+                                margin:1%;
+                               }
+                                #selectB option{
+                                   
+                                    font-weight:80%;
+                                
+    
+                                }
+                    #search{
+                        position: relative;
+                        margin:auto;
+                        height:40px;
+                        width:30%;
+                        font-size:120%;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-weight:bold;
+                        top:30%;
+                        left:35%;
+                        right:40%;
+                        border-radius:10px;
+    
+    
+                    }
+    
+    .animation{
+        position: relative;
+        top: 175px;
+        width:100%;
+    }
+        .animation .imgA{
+            position: relative;
+            height:100px;
+            width:100px;
+            left:6%;
+            animation:img;
+            animation-duration: 1.5s;
+        }
+        @keyframes img{
+            from{left:-10%;}
+        }
+    
+        .animation .pA{
+            position: relative;
+            font-family:Noto "Serif Bengali", serif ;
+            font-weight:bold;
+            font-size:100%;
+            top:-50px;
+            left:33%;
+            
+            animation:textA;
+            animation-duration: 4s;
+            
+        }
+        @keyframes textA{
+            from{opacity:0;}
+            to:{opacity:1;}
+            
+        }
+        .animation .imgB{
+            position: relative;
+            height:150px;
+            width:150px;
+            right:-63%;
+            top:-110px;
+            animation:imgB;
+            animation-duration: 1.5s;
+            
+        }
+        @keyframes imgB{
+            from{right:-80%;}
+        }
+    
+        .animation .pB{
+            position: relative;
+            font-family:Noto "Serif Bengali", serif ;
+            font-weight:bold;
+            font-size:100%;
+            top:-190px;
+            right:-40%;
+            
+            animation:textB;
+            animation-duration: 4s;
+            
+        }
+        @keyframes textB{
+            from{opacity:0;}
+            to:{opacity:1;}
+            
+        }
+        .table{
+            display: block;
+            text-align:center;
+            top: 30px;
+            position: relative;
+        }
+                
+            .table label p{
+                text-align:center;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight:bold;
+                font-size:140%;
+            }
+    
+                        .table table{
+                            position: relative;
+                            border:2px solid red;
+                            padding:5px;
+                            vertical-align:center;
+                            font-size:64%;
+                            width:95%;
+                            margin:0
+                        }
+                        .table tr{
+                            position: relative;
+                            border:2px solid red;
+                            vertical-align:center;
+                        }
+                        .table td{
+                            position: relative;
+                            border:2px solid rgb(60, 0, 255);
+                            padding:5px;
+                            vertical-align:center;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                        .table th{
+                            position: relative;
+                            border:2px solid rgb(13, 13, 13);
+                            padding:5px;
+                            vertical-align:center;
+                        }
+    
+    
+    
+
+
+        
+.black{
+    position: relative;
+    width:100%;
+    height:300px;
+    background-color: aqua;
+    top:100px;
+   
+}
+.black #cwd,#ats,#feed{
+  
+    text-align: center;
+    font-weight: bold;
+    font-size:130%;
+   visibility: visible;
+    
+}
+
+        #whatsapp,#facebook{
+            position: relative;
+            display:none;
+            height: 40px;
+            width: 40px;
+            left: 37%;
+            top: -139px;
+        }
+        #facebook{
+            animation:facebook;
+            animation-duration:1.5s;
+        }
+        @keyframes facebook{
+                        from{
+                            left:-20%;
+                        }
+        }
+        #whatsapp{
+            animation:whatsapp;
+            animation-duration:1.5s;
+        }
+        @keyframes whatsapp{
+            from{
+               left: 110%;
+            }
+        }
+
+            #copy{
+                position: relative;
+                 color: rgb(0, 0, 0);
+                 font-size:80%;
+                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                 font-weight: bold;
+                 text-align: center;
+                top:60px;
+                 opacity:.6;
+             }    
+}
+
+        
+
+           
+
+
+
+
+@media screen and (min-device-width:410px) and  (max-device-width:1200px)
+    
+{
+
+    .nav nav{
+        position: relative;
+        width:100%;
+        height:50px;
+        left:0%;
+        right:0%;
+        top:0%;
+        background-color: black;
+        
+    }
+    
+    .xb2{
+        position: absolute;
+      width:100%;
+       
+    }
+    .button{
+        position: relative;
+        margin: auto;
+        cursor:pointer;
+        visibility:visible;
+        padding-top:10px;
+        left:8.5%;
+        
+        
+    }
+    
+    .button input{
+        position: relative;
+        height:auto;
+        font-size:120%;
+        background-color: aqua;
+        font-style:bold;
+        text-align:center;
+        height:60px;
+        width:170px;
+        margin:auto;
+        border-radius:6px;
+        cursor:pointer;
+        font-weight: bold;
+    
+      
+        
+    }
+    
+    .popup{
+             position: relative;
+             width: 90%;
+             height:500px;
+             background-color:rgb(0, 255, 195);
+             z-index:6; 
+             display:none;
+             margin:auto;
+             border:red solid 3px;
+             border-radius:10px;
+             top:70px;
+             
+            }
+                #cancel{
+                    position: relative;
+                    left:90%;
+                    top:2%;
+                    height:30px;
+                    width: 30px;
+                    cursor:pointer;
+                  
+                }
+                .popup #label,#labelA,#labelB{
+                            position:relative;
+                            font-size:130%;
+                            font-weight:bold;
+                            
+                            
+                           
+    
+                            
+                }
+                     #label p{
+                        position: relative;
+                        text-align: center;
+                        font-size:130%;
+                        font-family: "Libre Baskerville", serif;
+                        font-weight: bold;
+                        top:05px;
+    
+                     }
+    
+                     
+    
+                    #labelA{
+                      
+                        padding-left:10px;
+                        top:10%;
+                        font-size:145%;
+                           
+                        
+    
+    
+                    }
+                            #selectA{
+                                position: relative;
+                                top:12%;
+                                width:90%;
+                                font-size:130%;
+                                font-family:800;
+                                border-radius:4px;
+                                margin:2%;
+                            }
+                            #selectA option{
+                                   
+                                font-weight:800;
+    
+                            
+    
+                            }
+                    #labelB{
+                        
+                        padding-left:10px;
+                        top:15%;
+                        font-size:145%;
+    
+    
+                    }
+                            #selectB{
+                                position: relative;
+                                top:18%;
+                                width:90%;
+                                font-size:130%;
+                                font-family:800;
+                                border-radius:4px;
+                                margin:2%;
+                               }
+                                #selectB option{
+                                   
+                                    font-weight:80%;
+                                
+    
+                                }
+                    #search{
+                        position: relative;
+                        margin:auto;
+                        height:40px;
+                        width:35%;
+                        font-size:135%;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-weight:bold;
+                        top:30%;
+                        left:35%;
+                        right:40%;
+                        border-radius:10px;
+    
+    
+                    }
+    
+    .animation{
+        position: relative;
+        top: 204px;
+        width:100%;
+    }
+        .animation .imgA{
+            position: relative;
+            height:90px;
+            width:90px;
+            left:7%;
+            animation:img;
+            animation-duration: 1.5s;
+        }
+        @keyframes img{
+            from{left:-10%;}
+        }
+    
+        .animation .pA{
+            position: relative;
+            font-family:Noto "Serif Bengali", serif ;
+            font-weight:bold;
+            font-size:120%;
+            top:-58px;
+            left:29%;
+            
+            animation:textA;
+            animation-duration: 4s;
+            
+        }
+        @keyframes textA{
+            from{opacity:0;}
+            to:{opacity:1;}
+            
+        }
+        .animation .imgB{
+            position: relative;
+            height:130px;
+            width:130px;
+            right:-69%;
+            top:-100px;
+            animation:imgB;
+            animation-duration: 1.5s;
+            
+        }
+        @keyframes imgB{
+            from{right:-90%;}
+        }
+    
+        .animation .pB{
+            position: relative;
+            font-family:Noto "Serif Bengali", serif ;
+            font-weight:bold;
+            font-size:120%;
+            top:-170px;
+            right:-41%;
+            
+            animation:textB;
+            animation-duration: 4s;
+            
+        }
+        @keyframes textB{
+            from{opacity:0;}
+            to:{opacity:1;}
+            
+        }
+        .table{
+            display: block;
+            text-align:center;
+            top: 160px;
+            position: relative;
+        }
+        
+                
+            .table label p{
+                text-align:center;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight:bold;
+                font-size:140%;
+            }
+    
+                        .table table{
+                            position: relative;
+                            border:2px solid red;
+                            padding:5px;
+                            
+                            font-size:75%;
+                            width:95%;
+                            margin:0%;
+                            
+                        }
+                        .table tr{
+                            position: relative;
+                            border:2px solid red;
+                           
+                        }
+                        .table td{
+                            position: relative;
+                            border:2px solid rgb(60, 0, 255);
+                            padding:5px;
+                        
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        }
+                        .table th{
+                            position: relative;
+                            border:2px solid rgb(0, 0, 0);
+                            padding:5px;
+                            
+                        }
+    
+    
+    
+        
+.black{
+    position: relative;
+    width:100%;
+    height:200px;
+    background-color: aqua;
+    top: 316px;
+   
+}
+.black #cwd,#ats,#feed{
+  
+    text-align: center;
+    font-weight: bold;
+    font-size:130%;
+   visibility: visible;
+    
+}
+
+        #whatsapp,#facebook{
+            position: relative;
+            display:none;
+            height: 40px;
+            width: 40px;
+            left: 40%;
+            top: -139px;
+        }
+        #facebook{
+            animation:facebook;
+            animation-duration:2s;
+        }
+        @keyframes facebook{
+                        from{
+                            left:-10%;
+                        }
+        }
+        #whatsapp{
+            animation:whatsapp;
+            animation-duration:2s;
+        }
+        @keyframes whatsapp{
+            from{
+               left: 110%;
+            }
+}
+        
+
+        
+#copy{
+    position: relative;
+     color: rgb(0, 0, 0);
+     font-size:80%;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: bold;
+     text-align: center;
+    top:275px;
+     opacity:.6;
+ }       
+       
+
